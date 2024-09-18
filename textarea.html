@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="feedback">Please give your valuable feedback : </label>
+
+            <!-- By default size of textarea = 2 rows & 10 columns -->
+            <textarea id="feedback" name="feedback"></textarea>
+        </div>
+        <div>
+            <label for="feedback">Please give your valuable feedback : </label>
+
+            <!-- Change textarea size using "rows & cols" attributes -->
+            <textarea id="feedback" name="feedback" rows="5" cols="100"></textarea>
+        </div>
+        <div>
+            <label for="feedback">Please give your valuable feedback : </label>
+
+            <!-- Placeholder -->
+            <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+        </div>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
